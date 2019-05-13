@@ -1,0 +1,50 @@
+td{
+    width: 90px;
+    border: 1px solid rgba(61, 59, 59, 0.712);
+    height: 75px;
+    color: white;
+    cursor: pointer;
+    font-size: 0%;
+}
+
+#game{
+padding: 2%;
+border: 3px solid rgb(3, 3, 3);
+width: 300px;
+}
+.active{
+    color: rgba(250, 250, 250, 0.986);
+}
+
+#winner{
+    background: rgba(19, 18, 18, 0.753);
+    width: 340px;
+    display: grid;
+    grid-template-columns: 170px 170px;
+    grid-template-areas: 
+    "Header Header"
+    "yourTime theEnd";
+    
+}
+
+#youWin{
+    grid-area: Header;
+    margin-left: 10%;
+    color: white;
+}
+
+#yourTime{
+    grid-area: yourTime;
+    margin-left: 20%;
+    color: white;
+}
+
+#theEnd{
+    grid-area: theEnd;
+    width: 50px;
+    height: 30px;
+    margin-left: 60%;
+    margin-top: 10%; 
+    background: rgb(63, 63, 134);
+    border: 2px solid blue;
+}
